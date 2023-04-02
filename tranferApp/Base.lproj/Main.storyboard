@@ -27,7 +27,7 @@
         <!--Сцена А-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tranferApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="tranferApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,8 +56,40 @@
             </objects>
             <point key="canvasLocation" x="-200" y="-43.364928909952603"/>
         </scene>
+        <!--сцена Б-->
+        <scene sceneID="Zr2-Aw-vP2">
+            <objects>
+                <viewController storyboardIdentifier="SecondViewController" id="Rws-9g-lHF" customClass="SecondViewController" customModule="tranferApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZpO-za-bhp">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nYa-Q1-cx3">
+                                <rect key="frame" x="30" y="405" width="330" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cnz-QL-z1t"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="nYa-Q1-cx3" firstAttribute="leading" secondItem="cnz-QL-z1t" secondAttribute="leading" constant="30" id="19Z-YF-cDR"/>
+                            <constraint firstItem="nYa-Q1-cx3" firstAttribute="top" secondItem="cnz-QL-z1t" secondAttribute="top" constant="358" id="2gX-tB-Kmw"/>
+                            <constraint firstItem="cnz-QL-z1t" firstAttribute="trailing" secondItem="nYa-Q1-cx3" secondAttribute="trailing" constant="30" id="Eu0-5P-kv3"/>
+                            <constraint firstItem="cnz-QL-z1t" firstAttribute="bottom" secondItem="nYa-Q1-cx3" secondAttribute="bottom" constant="371" id="cgv-k2-Eza"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="сцена Б" id="Lv9-bV-E8o"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4bY-w8-vs6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="741.53846153846155" y="-43.364928909952603"/>
+        </scene>
     </scenes>
     <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemPurpleColor">
             <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

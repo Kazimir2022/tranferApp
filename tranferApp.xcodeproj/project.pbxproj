@@ -13,6 +13,7 @@
 		FE5A1F4529D9B7E80063914C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5A1F4329D9B7E80063914C /* Main.storyboard */; };
 		FE5A1F4729D9B7E90063914C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5A1F4629D9B7E90063914C /* Assets.xcassets */; };
 		FE5A1F4A29D9B7E90063914C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5A1F4829D9B7E90063914C /* LaunchScreen.storyboard */; };
+		FE5A1F5229D9BFEA0063914C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5A1F5129D9BFEA0063914C /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FE5A1F4629D9B7E90063914C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE5A1F4929D9B7E90063914C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE5A1F4B29D9B7E90063914C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5A1F5129D9BFEA0063914C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				FE5A1F3D29D9B7E80063914C /* AppDelegate.swift */,
 				FE5A1F3F29D9B7E80063914C /* SceneDelegate.swift */,
+				FE5A1F5129D9BFEA0063914C /* SecondViewController.swift */,
 				FE5A1F4129D9B7E80063914C /* ViewController.swift */,
 				FE5A1F4329D9B7E80063914C /* Main.storyboard */,
 				FE5A1F4629D9B7E90063914C /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5A1F5229D9BFEA0063914C /* SecondViewController.swift in Sources */,
 				FE5A1F4229D9B7E80063914C /* ViewController.swift in Sources */,
 				FE5A1F3E29D9B7E80063914C /* AppDelegate.swift in Sources */,
 				FE5A1F4029D9B7E80063914C /* SceneDelegate.swift in Sources */,
