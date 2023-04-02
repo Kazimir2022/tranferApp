@@ -37,12 +37,25 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="225-Gd-Esu">
+                                <rect key="frame" x="30" y="470" width="330" height="36"/>
+                                <color key="backgroundColor" red="0.0" green="0.12750437062937064" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Изменить с помощью свойства"/>
+                                <connections>
+                                    <action selector="editDataWithProperty:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9YK-bQ-PcC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                         <constraints>
                             <constraint firstItem="s5O-i6-srU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="160" id="03s-Zp-Vwi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s5O-i6-srU" secondAttribute="trailing" constant="159" id="Cak-XI-ZpD"/>
+                            <constraint firstItem="225-Gd-Esu" firstAttribute="top" secondItem="s5O-i6-srU" secondAttribute="bottom" constant="30" id="S27-E0-MEm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="225-Gd-Esu" secondAttribute="trailing" constant="30" id="WER-2H-Ewz"/>
+                            <constraint firstItem="225-Gd-Esu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="mRO-Ys-Jv7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="s5O-i6-srU" secondAttribute="bottom" constant="370" id="oJV-iS-g2e"/>
                             <constraint firstItem="s5O-i6-srU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="261" id="z6O-iT-Li9"/>
                         </constraints>
@@ -80,6 +93,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="сцена Б" id="Lv9-bV-E8o"/>
+                    <connections>
+                        <outlet property="dataTextField" destination="nYa-Q1-cx3" id="GjX-6J-sO3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4bY-w8-vs6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
