@@ -10,20 +10,21 @@ import UIKit
 class SecondViewController: UIViewController {
 
     @IBOutlet var dataTextField: UITextField!
-    
+        // заполнение текстового поля
     var updatingData: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
-   override func viewWillAppear(_ animated: Bool) {
+    // при каждом отображении сцены на экране
+    override func viewWillAppear(_ animated: Bool) {
        super.viewWillAppear(animated)
+            // вызывается метод
        updateTextFieldData(withText: updatingData)
        
    }
-    // обновляем данные в текстовом поле
+    // обновляем данные в текстовом поле. Заполняется свойство текст пустым згачением
     private func updateTextFieldData(withText text: String) {
         dataTextField.text = text}
 }
